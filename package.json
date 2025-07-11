@@ -35,8 +35,9 @@
     "coverageReporters": ["text", "lcov"],
     "collectCoverageFrom": [
       "src/**/*.js",
-      "!**/node_modules/**"
-    ],
+      "!**/node_modules/**",
+      "!src/app.js"
+  ],
     "testMatch": [
       "**/__tests__/**/*.test.js",
       "**/tests/**/*.test.js"
